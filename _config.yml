@@ -1,12 +1,13 @@
 # Site settings
 title: Immanuel Bible Church
-email: glossa@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Official website of Immanuel Bible Church in Santa Monica, CA
+email: info@ibcbible.org
+copyright: "&copy; 2015 Immanuel Bible Church"
+mailing_address: 1254 19th St. Santa Monica, CA 90404
+phone_number: (424)261-4222
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ibcbible.org" # the base hostname & protocol for your site
 twitter_username: ibcbible
-github_username:  ibcbible
+facebook_page: https://www.facebook.com/pages/Immanuel-Bible-Church/103132669751689
 
 # Build settings
 markdown: kramdown

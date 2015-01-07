@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-
 ## History
 
 Immanuel Bible Church (IBC) was started in 1996 with a membership of about 10 to 14 people and one pastor, Nam Park. Services were originally held in the basement of a church in Hollywood and over the years moved geographically from Hollywood to Glendale to West Los Angeles to Santa Monica.

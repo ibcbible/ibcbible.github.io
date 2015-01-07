@@ -3,7 +3,6 @@ layout: page
 title: Doctrine
 permalink: /doctrine/
 ---
-
 We believe the Bible is God’s written revelation to man. It is verbally inspired in every word, and absolutely inerrant in the original documents. We affirm the infallibility, sufficiency, and authority of Scripture.
 
 We believe that there is but one Living and true God, an infinite, all-knowing Spirit, perfect in all His attributes, one in essence, eternally existing in three Persons—the Father, Son, and Holy Spirit – each equally deserving worship and obedience.

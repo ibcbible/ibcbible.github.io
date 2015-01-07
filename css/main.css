@@ -1,0 +1,20 @@
+.footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.post-list > li {
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #999;
+}
+
+.post-link {
+    display: block;
+    font-size: 20px;
+}
