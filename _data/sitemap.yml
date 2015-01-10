@@ -1,0 +1,29 @@
+- id: about
+  title: About
+  subsections:
+  - id: history
+    title: History
+  - id: leadership
+    title: Leadership
+  - id: doctrine
+    title: Doctrine
+
+- id: calendar
+  title: Calendar
+
+- id: sermons
+  title: Sermons
+
+- id: resources
+  title: Resources
+  subsections:
+  - id: recommended-reading
+    title: Recommended Reading
+  - id: links
+    title: Links
+
+- id: blog
+  title: Blog
+
+- id: contact
+  title: Contact Us

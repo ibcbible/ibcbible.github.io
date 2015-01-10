@@ -1,6 +1,30 @@
 ---
 layout: default
 ---
+
+<div class="col-md-9">
+
 <h1>{{ page.title }}</h1>
 
 {{ content }}
+
+</div>
+
+<div class="col-md-3">
+
+{% assign url_elements = page.url | split:"/" %}
+{% assign section_name = url_elements[1] %}
+{% assign subsection_name = url_elements[2] %}
+
+{% for section in site.data.sitemap %}
+
+{% if section.id == section_name %}
+   {% if section.subsections %}
+   <h4>{{ section.title }}</h4>
+   {% include section_contents.html section_name=section_name subsection_name=subsection_name subsections=section.subsections %}
+   {% endif %}
+{% endif %}
+
+{% endfor %}
+
+</div>

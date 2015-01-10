@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Doctrine
-permalink: /doctrine/
+title: Our Doctrine
 ---
 We believe the Bible is God’s written revelation to man. It is verbally inspired in every word, and absolutely inerrant in the original documents. We affirm the infallibility, sufficiency, and authority of Scripture.
 

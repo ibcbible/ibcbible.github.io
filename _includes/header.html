@@ -1,9 +1,21 @@
+{% assign url_elements = page.url | split:"/" %}
+{% assign section_name = url_elements[1] %}
+
 <div class="header">
   <nav>
     <ul class="nav nav-pills pull-right">
-        {% for page in site.pages %}
-          {% if page.title %}
-      <li role="presentation"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% for section in site.data.sitemap %}
+          {% if section.subsections %}
+      <li class="dropdown{% if section_name == section.id %} active{% endif %}">
+        <a data-toggle="dropdown" class="dropdown-toggle" href="#">{{ section.title }}</a>
+        <ul class="dropdown-menu">
+          {% for subsection in section.subsections %}
+          <li><a href="/{{ section.id }}/{{ subsection.id }}/">{{ subsection.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+          {% else %}
+      <li{% if section_name == section.id %} class="active"{% endif %}><a href="/{{ section.id }}/">{{ section.title }}</a></li>
           {% endif %}
         {% endfor %}
     </ul>

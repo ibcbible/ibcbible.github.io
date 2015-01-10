@@ -1,0 +1,12 @@
+{% assign section_name = include.section_name %}
+{% assign subsection_name = include.subsection_name %}
+{% assign subsections = include.subsections %}
+
+<ul class="nav nav-pills nav-stacked">
+{% for subsection in subsections %}
+  {% assign subsection_url = subsection.id | prepend: "/" | prepend: section_name | prepend: "/" | append:"/" %}
+
+  <li{% if subsection_name == subsection.id %} class="active"{% endif %}><a href="{{ subsection_url }}">{{ subsection.title }}</a></li>
+
+{% endfor %}
+</ul>

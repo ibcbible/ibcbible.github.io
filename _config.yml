@@ -13,3 +13,5 @@ facebook_page: https://www.facebook.com/pages/Immanuel-Bible-Church/103132669751
 markdown: kramdown
 
 highlighter: rouge
+
+permalink: pretty
